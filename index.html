@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Matthew Barry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+
+    <div id="hero">
+        <div class="hero-text">
+            <h1>Mr Matthew Barry</h1>
+            <h2>Children's Orthopaedics</h2>
+        </div>
+    </div>
+
+    <div class="big-container">
+        <div id="home" class="container">
+            <div class="row">
+                <div class="left-side">
+                    <img src="images/mugshot.jpg">
+                </div>
+                <div class="right-side">
+                    <h1>Matthew Barry MBBS FRCS</h1>
+                    <p>
+                        Mr. Matthew Barry is an experienced Consultant Orthopaedic Surgeon who was appointed in 1998 to the Royal London Hospital where he worked until October 2017.
+                        <br><br>
+                        From October 2017, Mr. Barry has worked as a children’s orthopaedic surgeon at the University Hospital Southampton, 
+                        and he is happy to see children privately at the Spire Hospital in Southampton.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="left-side">
+                    <h1>Experience & Specialisms</h1>
+                    <p>
+                        Matthew Barry has broad experience in children's orthopaedics with a particular focus on foot and ankle problems.
+                        <br><br>
+                        He also specialises in the treatment of children’s fractures and their complications including disturbances of the growth plate, limb length inequality, malalignment and non unions.
+                    </p>
+                </div>
+                <div class="right-side">
+                    <img src="images/unsplash.jpg">
+                </div>
+            </div>
+            
+            <div class="row buttonrow">
+                <button class="home-button" onclick="window.location.href='/practice.html#clinics';">
+                    Clinic Timetable
+                </button>
+                <button class="home-button" onclick="window.location.href='/practice.html#referrals';">
+                    Referral Procedure
+                </button>
+                <button class="home-button" onclick="window.location.href='/fees.html';">
+                    Fees
+                </button>
+            </div>
+        </div>
+
+        <div id="footer-container"></div>
+
+    </div>
+
+<!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <!-- Load our React component. -->
+  <script src="navbar.js"></script>
+  <script src="footer.js"></script>
+    
+</body>
+<script src="script.js"></script>
+</html>

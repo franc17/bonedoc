@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Matthew Barry - About</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Container for React rendered navbar -->
+    <div id="navbar-container"></div>
+
+    <div class="header">
+        <div class="header-text">
+            <h1>About</h1>
+        </div>
+    </div>
+
+    <div class="big-container">
+        <div id="home" class="container">
+            <div class="row subpage">
+                <!-- <div class="left-side">
+                    <img src="images/mugshot.jpg">
+                </div> -->
+                <div class="left-side">
+                    <h1>About</h1>
+                    <p>
+                        My medical school training was at The London Hospital Medical College and my Orthopaedic training was at the Hammersmith and Charring Cross Hospitals in west London. 
+                        I undertook a one year fellowship in Paediatric Orthopaedics at The Women’s and Children’s Hospital in Adelaide, South Australia.
+                        <br>
+                        <br>
+                        I was awarded an MS (Master of Surgery) degree in 1997 by the University of London. In 1998, I obtained my Certificate of Completion of Specialist Training (CCST) as well as passing the FRCS(Orth) examination. 
+                        I am a Fellow of the Royal College of Surgeons of England.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row subpage">
+                <div class="left-side">
+                    <h1>Society Membership</h1>
+                    <p>
+                        I am a member of the following professional societies:
+                    </p>
+                    <div id="logos" class="row buttonrow">
+                        <a href="http://www.boa.ac.uk/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/boa.png"/>
+                        </a>
+                        <a href="http://www.bscos.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/bscos.png"/>
+                        </a>
+                        <a href="http://www.blrs.org.uk/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/blrs.jpg"/>
+                        </a>
+                        <a href="http://www.rcseng.ac.uk/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/rcse.png"/>
+                            
+                        </a>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="row subpage">
+                <div class="left-side">
+                    <h1>Publications & CV</h1>
+                    <p>
+                        A full list of my academic publications and contributions can be 
+                        found at <a href="https://www.researchgate.net/profile/Matthew-Barry" target="_blank" rel="noopener noreferrer">Research Gate</a>.
+                    <br><br>
+                        <i>Paediatric Orthopaedics in Clinical Practice</i> (Springer, 2016) is a concise reference guide to children’s orthopaedics, designed for those working towards the FRCS(Orth) exam.
+                        It was written in collaboration with colleagues Nick Aresti, Manoj Ramachandran, and Mark Paterson, and can be
+                        purchased from the publisher <a href="https://link.springer.com/book/10.1007/978-1-4471-6769-3" target="_blank" rel="noopener noreferrer">here</a>.
+                    <br><br>
+                        Access a PDF of my <a href="/assets/M Barry CV.pdf" target="_blank">full CV</a> here.
+                    </p>
+                </div>
+            </div>
+            <div class="row subpage" style="align-items:flex-start">
+                <div class="left-side">
+                    <p>
+                        Alongside my clinical practice, I regularly teach undergraduate medical students and postgraduate trainees, and lecture on postgraduate courses in Trauma & Orthopaedics.
+                        <br><br>
+                        Additionally, working with <a href="https://www.map.org.uk/" target="_blank" rel="noopener noreferrer"> Medical Aid for Palestine</a>, I have had the opportunity to travel to Gaza and support local surgeons with complex trauma management.
+                    </p>
+                </div>
+                <div id="gazapic" class="right-side">
+                    <img src="images/gaza.jpg" alt="Photo of surgeons in Gaza including M Barry">
+                    <p style="font-size: small; padding:0">Credit: Barts NHS PR</p>
+                </div>
+            </div>
+            
+            <div style="height:5rem"></div> 
+   
+        </div>
+
+        <!-- Container for React rendered footer -->
+        <div id="footer-container"></div>
+
+    </div>
+
+    <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <!-- Load our React component. -->
+  <script src="navbar.js"></script>
+  <script src="footer.js"></script>
+
+
+</body>
+<script src="script.js"></script>
+</html>
